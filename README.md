@@ -1,19 +1,24 @@
-# Lab 01: Notes App
-
-### Author: Sarah Shatto
+# Notes App
+#### Author: Sarah Shatto
 <br>
-<br>
-
-
 An application that allows uses to create and manage notes. 
 
-## Links: 
-- tests
-- front end
+## Lab 01 - Phase one
+
+## Links and Resources: 
+- [Phase One submission PR]()
+- ci/cd (GitHub Actions)
 
 ## Setup: 
+.env requirements (TBD)
+
+
+
 ### Package Requirements:
+- NPM (Node Package Manager)
+- Minimist
 
 ### Running the app: 
+- Command 
 ### How to perform tests: 
 ### UML: 
