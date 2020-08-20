@@ -1,5 +1,6 @@
 # Notes App
 #### Author: Sarah Shatto
+
 <br>
 An application that allows uses to create and manage notes. 
 

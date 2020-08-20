@@ -37,7 +37,7 @@ describe('Parse add', () => {
 
 });
 
-xdescribe('Parse list', () => {
+describe('Parse list', () => {
   it('should parse --list', () => {
     const input = new Input();
     const command = input.parse({ list: true });
@@ -50,7 +50,7 @@ xdescribe('Parse list', () => {
   });
 });
 
-xdescribe('parse category', () => {
+describe('parse category', () => {
 
   it('should parse -a with payload and --category', () => {
     const input = new Input();
@@ -84,7 +84,7 @@ xdescribe('parse category', () => {
 
 });
 
-xdescribe('Parse delete', () => {
+describe('Parse delete', () => {
   it('should parse --delete', () => {
     const input = new Input();
     const command = input.parse({ delete: 'someid' });
@@ -100,7 +100,7 @@ xdescribe('Parse delete', () => {
 
 });
 
-xdescribe('Validate', () => {
+describe('Validate', () => {
 
   it('valid() respects a proper object', () => {
     let options = new Input();
@@ -133,7 +133,7 @@ xdescribe('Validate', () => {
 
 });
 
-xdescribe('category', () => {
+describe('category', () => {
   it('should parse category with full switch', () => {
     let options = new Input();
     const actual = options.parse({ add: 'buy milk', category: 'groceries' });

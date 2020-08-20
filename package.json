@@ -1,8 +1,11 @@
 {
-  "name": "notes",
+  "name": "@sarahshatto/notes",
   "version": "1.0.0",
   "description": "### Author: Sarah Shatto <br> <br>",
   "main": "index.js",
+  "bin": {
+    "notes": "index.js"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -22,8 +25,12 @@
   "homepage": "https://github.com/sarahshatto-401-advanced-javascript/notes#readme",
   "dependencies": {
     "@code-fellows/supergoose": "^1.0.2",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
     "jest": "^26.4.0",
     "minimist": "^1.2.5",
+    "mongoose": "^5.10.0",
     "only": "0.0.2"
   }
 }
